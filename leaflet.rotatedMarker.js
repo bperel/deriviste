@@ -47,11 +47,5 @@
             this.update();
             return this;
         },
-
-        setRotationOrigin: function(origin) {
-            this.options.rotationOrigin = origin;
-            this.update();
-            return this;
-        }
     });
 })();
